@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="GuessText" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@color/cardview_light_background</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="ResultTextSuccess" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@color/teal_700</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="ResultTextFail" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@color/red</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>
